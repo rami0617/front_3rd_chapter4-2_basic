@@ -3,9 +3,13 @@
 ## 배포 주소
 - https://d30xik1jnvalme.cloudfront.net/
 
-## 성능최적화 전
+## 성능최적화 
 - PageSpeed Insights를 사용한 성능 측정
-  - https://pagespeed.web.dev/analysis/https-d30xik1jnvalme-cloudfront-net/n1t099zqfg?form_factor=desktop
+  - 전
+    - https://pagespeed.web.dev/analysis/https-d30xik1jnvalme-cloudfront-net/n1t099zqfg?form_factor=desktop
+  - 후
+    - https://pagespeed.web.dev/analysis/https-d2ox1hc9wfojrj-cloudfront-net/3cbup365fg?form_factor=desktop
+
 
 ## 개선 이유
 
