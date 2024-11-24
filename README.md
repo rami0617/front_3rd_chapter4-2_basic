@@ -9,13 +9,13 @@
 
 ### 성능 전후 비교
 
-| **항목**             | **성능 개선 전**                                                                                       | **성능 개선 후**                                                                                                               |
-|-----------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| **LCP**              | 14.63s                                                                                               | 1.0s                                                                                                                      |
-| **분석 링크**        | [성능 개선 전 분석 결과 보기](https://pagespeed.web.dev/analysis/https-d30xik1jnvalme-cloudfront-net/n1t099zqfg?form_factor=desktop) | [성능 개선 후 분석 결과 보기](https://pagespeed.web.dev/analysis/https-d30xik1jnvalme-cloudfront-net/vig19nu8tw?form_factor=desktop) |
-| **이미지**           | <img width="800" alt="image" src="https://github.com/user-attachments/assets/e12b9984-14ad-48c6-9ce4-35238a4ace72"> | <img width="517" alt="image" src="https://github.com/user-attachments/assets/1b3edb8e-b8c7-4428-a443-b967ea2d0696">       |
-| **주요 개선 사항**   | - 히어로 이미지 JPG 사용<br>- Lazy loading 미적용<br>- CSS 및 폰트 비최적화                          | - WebP 포맷 적용 및 이미지 압축<br>- Lazy loading 적용<br>- CSS 및 폰트 최적화(woff2 사용)                                                    |
-| **개선 효과**        | - 초기 로드 속도가 느림<br>- 주요 콘텐츠 표시 시간 지연<br>- 일부 레이아웃 이동 발생                  | - 초기 로드 속도 대폭 단축<br>- 주요 콘텐츠 빠르게 표시<br>- 레이아웃 이동 완전 제거                                                                    |
+| **항목**             | **성능 개선 전**                                                                                                                      | **성능 개선 후**                                                                                                                      |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| **LCP**              | 14.63s                                                                                                                           | 1.0s                                                                                                                             |
+| **분석 링크**        | [성능 개선 전 분석 결과 보기](https://pagespeed.web.dev/analysis/https-d30xik1jnvalme-cloudfront-net/n1t099zqfg?form_factor=desktop)        | [성능 개선 후 분석 결과 보기](https://pagespeed.web.dev/analysis/https-d30xik1jnvalme-cloudfront-net/vig19nu8tw?form_factor=desktop)        |
+| **이미지**           | <img width="800" height="100" alt="image" src="https://github.com/user-attachments/assets/e12b9984-14ad-48c6-9ce4-35238a4ace72"> | <img width="800" height="100" alt="image" src="https://github.com/user-attachments/assets/1b3edb8e-b8c7-4428-a443-b967ea2d0696"> |
+| **주요 개선 사항**   | - 히어로 이미지 JPG 사용<br>- Lazy loading 미적용<br>- CSS 및 폰트 비최적화                                                                        | - WebP 포맷 적용 및 이미지 압축<br>- Lazy loading 적용<br>- CSS 및 폰트 최적화(woff2 사용)                                                           |
+| **개선 효과**        | - 초기 로드 속도가 느림<br>- 주요 콘텐츠 표시 시간 지연<br>- 일부 레이아웃 이동 발생                                                                           | - 초기 로드 속도 대폭 단축<br>- 주요 콘텐츠 빠르게 표시<br>- 레이아웃 이동 완전 제거                                                                           |
 
 
 ### 개선 이유
