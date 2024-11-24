@@ -22,8 +22,15 @@ function displayProducts(products) {
         const img = document.createElement('img');
         img.src = product.image;
         img.alt = `product: ${product.title}`;
-        img.width= 35;
+        img.srcset = `
+            ${product.image}?w=70 70w,
+            ${product.image}?w=140 140w,
+            ${product.image}?w=280 280w
+             `;
+        img.sizes = "(max-width: 576px) 70px, (max-width: 960px) 140px, 280px";
+        img.width = 70;
         img.height = 70;
+
         img.loading = 'lazy';
         pictureDiv.appendChild(img);
 
