@@ -19,6 +19,7 @@
 7. 폰트를 woff2, woff 확장자로 변경
 8. 히어로 외 다른 이미지 압축, webp로 변경, product 이미지 lazy loading 처리
 9. 쿠키 스크립트가 페이지 로딩을 차단하지 않도록 defer 속성 추가
+10. style.css 파일 minify
 
 ## 개선 후 향상된 지표
 1. LCP 14.63s -> 9.76s
@@ -30,3 +31,4 @@
 7. LCP 4.58s -> 4.58s
 8. LCP 4.58s -> 3.83s
 9. LCP 3.83s -> 2.86s
+10. LCP 2.86s -> 2.85s
