@@ -22,7 +22,7 @@ function displayProducts(products) {
         const img = document.createElement('img');
         img.src = product.image;
         img.alt = `product: ${product.title}`;
-        img.width= 120;
+        img.width= 35;
         img.height = 70;
         img.loading = 'lazy';
         pictureDiv.appendChild(img);
